@@ -1,0 +1,40 @@
+{
+  "name": "fastify-auth-jwt-mongo",
+  "version": "0.1.0",
+  "description": "Sample user-management (signup, login, ACL) with Fastify and JWT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidedantonio/fastify-auth-jwt-mongo.git"
+  },
+  "keywords": [
+    "fastify",
+    "mongo",
+    "jwt",
+    "auth",
+    "signup",
+    "login"
+  ],
+  "author": "Davide D'Antonio <davide.dantonio@webeetle.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidedantonio/fastify-auth-jwt-mongo/issues"
+  },
+  "homepage": "https://github.com/davidedantonio/fastify-auth-jwt-mongo#readme",
+  "devDependencies": {
+    "fastify": "^1.12.1",
+    "fastify-plugin": "^1.2.1",
+    "mongo-clean": "^2.0.0",
+    "pre-commit": "^1.2.2",
+    "standard": "^12.0.1",
+    "tap": "^12.0.1"
+  },
+  "dependencies": {
+    "fastify-jwt": "^0.5.0",
+    "fastify-mongodb": "^0.9.0",
+    "secure-password": "^3.1.0"
+  }
+}
