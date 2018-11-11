@@ -1,7 +1,7 @@
 {
   "name": "fastify-auth-jwt-mongo",
   "version": "0.1.0",
-  "description": "Sample user-management (signup, login, ACL) with Fastify and JWT",
+  "description": "Sample user-management (signup, login) with Fastify and JWT",
   "main": "index.js",
   "scripts": {
     "mongo": "docker run -p 27017:27017 mongo:4.0.3",
@@ -29,7 +29,6 @@
     "fastify": "^1.12.1",
     "fastify-plugin": "^1.2.1",
     "mongo-clean": "^2.0.0",
-    "pre-commit": "^1.2.2",
     "standard": "^12.0.1",
     "tap": "^12.0.1"
   },
