@@ -1,6 +1,6 @@
 {
   "name": "@beetle/fastify-auth-jwt-mongo",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Sample user-management (signup, login) with Fastify and JWT",
   "main": "index.js",
   "scripts": {
