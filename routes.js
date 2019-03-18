@@ -97,7 +97,7 @@ module.exports = async (app, opts) => {
   })
 
   app.get('/me', {
-    beforeHandler: function (req, reply) {
+    preHandler: function (req, reply) {
       return req.jwtVerify()
     }
   }, async (req, reply) => {

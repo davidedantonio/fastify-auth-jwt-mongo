@@ -1,6 +1,6 @@
 {
   "name": "@beetle/fastify-auth-jwt-mongo",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Sample user-management (signup, login) with Fastify and JWT",
   "main": "index.js",
   "scripts": {
@@ -26,15 +26,15 @@
   },
   "homepage": "https://github.com/davidedantonio/fastify-auth-jwt-mongo#readme",
   "devDependencies": {
-    "fastify": "^1.12.1",
-    "fastify-plugin": "^1.2.1",
+    "fastify": "^2.1.0",
+    "fastify-plugin": "^1.5.0",
     "mongo-clean": "^2.0.0",
     "standard": "^12.0.1",
-    "tap": "^12.0.1"
+    "tap": "^12.6.0"
   },
   "dependencies": {
-    "fastify-jwt": "^0.5.0",
-    "fastify-mongodb": "^0.9.0",
+    "fastify-jwt": "^0.9.4",
+    "fastify-mongodb": "^1.0.1",
     "secure-password": "^3.1.0"
   }
 }
